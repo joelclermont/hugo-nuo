@@ -14,6 +14,7 @@
         {{ end }}
       </ul>
       {{ end }}
+      <p class="post-content">This site minds its manners and <a href="/post/2020-09/why-i-switched-to-fathom-analytics">doesn't track you at all</a>.</p>
       <p class="post-copyright">
         {{ if .Site.Copyright }}{{ .Site.Copyright }}{{ end }}{{ if gt (div (sub now.Unix .Lastmod.Unix) 86400) 100 }}This post was published <strong>{{ div (sub now.Unix .Lastmod.Unix) 86400 }}</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.{{ end }}
       </p>
