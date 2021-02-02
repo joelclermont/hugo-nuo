@@ -10,7 +10,7 @@
 
   <!-- Twitter Card -->
   {{ if isset .Params "cover" }}
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{ .Site.Params.twitter | default $gohugoio }}" />
     <meta name="twitter:title" content="{{ .Title }}" />
     <meta name="twitter:description" content="{{ .Summary | plainify }}" />
